@@ -1,0 +1,129 @@
+/* General body styles */
+body {
+    margin: 0;
+    padding: -30px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: url('https://res.cloudinary.com/du3mh1ouz/image/upload/v1712772096/freshvegetablesAlexRaths-4c1ea186a88e4fd7b95283eee614600c_qes5sv.jpg') center/cover no-repeat;
+    color: #ffffff;
+    font-size: 20px; /* Default font size */
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Left side of the page */
+.left-side {
+    flex: 1;
+    text-align: left;
+    padding: 0 30px;
+}
+
+/* Right side of the page */
+.right-side {
+    flex: 1;
+    padding: 0 30px;
+}
+
+/* Styling for form */
+.form {
+    max-width: 300px; /* Increased max-width */
+    margin: 0px auto;
+    background-color: transparent;
+    padding: -300px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+/* Styling for select boxes */
+.input-group select {
+    -webkit-appearance: none; /* Remove default appearance of select boxes in Webkit browsers */
+    -moz-appearance: none; /* Remove default appearance of select boxes in Mozilla browsers */
+    appearance: none; /* Remove default appearance of select boxes in all modern browsers */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='%23666' d='M7.247 10.95l4.792-4.793a1 1 0 1 1 1.414 1.414L9.389 12.372a1 1 0 0 1-1.414 0l-4.793-4.793a1 1 0 0 1 0-1.414z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styling for select boxes on focus */
+.input-group select:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #007BFF;
+}
+/* Input group styles */
+.input-group {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+/* Input fields and select box */
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Updated border color */
+    border-radius: 5px; /* Reduced border radius */
+    box-sizing: border-box;
+}
+
+/* Styling for labels */
+.input-group label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    pointer-events: none;
+    color: #666;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Label floating on focus or input */
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label,
+.input-group select:focus ~ label,
+.input-group select:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #007BFF;
+    background: white;
+    padding: 0 5px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b3d7ff; /* Light blue border */
+    border-radius: 5px; /* Reduced border radius */
+    box-sizing: border-box;
+    background-color: #e6f3ff; /* Light blue background */
+    color: #000000; /* Black text */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #2980b9; /* Darker blue */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Reduced border radius */
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #21618c; /* Darker hover color */
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background:url('http://getwallpapers.com/wallpaper/full/9/2/f/614139.jpg') center/cover no-repeat; 
+    color: #ffffff;
+  }
+  
+  .page {
+    max-width: 450px;
+    margin: 160px auto;
+    background-color: #ffffff;
+    padding: 29px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    background: url('') center/cover no-repeat; 
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="date"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"],
+  .button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="signup"]:hover,
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  .group {
+    margin-bottom: 20px;
+  }
+  
+  .check {
+    margin-right: 5px;
+  }
+  
+  .login-page,
+  .registration-page,
+  .signup-button {
+    background:transparent;
+  }
+  
+  .signup-button {
+    display: block;
+    width: 430px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #4d9fc0;
+  }
+  
+  .signup-button:hover {
+    background-color: #f9f6f6;
+  }
+  
+  .view-cv-button {
+    background: #b6bec1;
+  }
+  
+  .view-cv-button {
+    display: block;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    color: #498fab;
+  }
+  .view-cv-button:hover {
+    background-color: #747474;
+  }
+  
+  
